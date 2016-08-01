@@ -1,4 +1,4 @@
-= Nagios 4 config
+# Nagios 4 config
 
 Initial installation
 

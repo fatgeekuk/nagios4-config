@@ -1,0 +1,8 @@
+.gitconfig
+bin
+include
+libexec
+sbin
+share
+var
+etc/htpasswd.cfg

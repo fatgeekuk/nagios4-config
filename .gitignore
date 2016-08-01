@@ -1,0 +1,7 @@
+.gitconfig
+bin
+include
+libexec
+sbin
+share
+var

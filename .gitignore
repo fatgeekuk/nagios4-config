@@ -5,4 +5,4 @@ libexec
 sbin
 share
 var
-etc/htpasswd.cfg
+etc/htpasswd.users

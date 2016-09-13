@@ -6,10 +6,22 @@
 
   send-sms '<who from>' '< comma delim list of international phone numbers >' '<message>'
 
-  International numbers start with +xx where xx is the country code (44 for the UK) 
+  International numbers start with +xx where xx is the country code (44 for the UK)
   and then continue with the local mobile number with the leading 0 removed.
 
   So, 07985236241 becomes +447985236241.
+
+  Authentication.
+
+  This is accomplished by putting a settings file in the ~/.aws directory
+  of the running user called "credentials" that contains values for the
+  key and secret as follows
+
+  ---------- beginning of gile ----------
+  [default]
+  aws_access_key_id = XXXXXXXXXXXXX
+  aws_secret_access_key = YYYYYYYYYYYYYYYYY
+  ------------- end of file -------------
 
 =end
 

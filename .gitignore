@@ -6,3 +6,4 @@ sbin
 share
 var
 etc/htpasswd.users
+*.swp
